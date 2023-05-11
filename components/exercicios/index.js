@@ -9,15 +9,7 @@ export default function apostila03() {
 
   function AddNumber() {
     setContador(contador + 1);
-  }
-
-  function SubNumber() {
-    setContador(contador - 1);
-  }
-
-  function ZeroNumber(){
-    setContador(0);
-
+    console.log(contador)
   }
 
   return (
@@ -32,25 +24,6 @@ export default function apostila03() {
       
       >
         <Text style={styles.textButton}>Somar +1</Text>
-
-      </TouchableOpacity>
-
-      <TouchableOpacity 
-        style={styles.button}
-        onPress={() => SubNumber()}
-      
-      >
-        <Text style={styles.textButton}>Somar -1</Text>
-        
-      </TouchableOpacity>
-
-      <TouchableOpacity 
-        style={styles.button}
-        onPress={() => ZeroNumber()}
-      
-      >
-        <Text style={styles.textButton}>Zerar</Text>
-        
       </TouchableOpacity>
 
     </View>
