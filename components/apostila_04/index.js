@@ -6,7 +6,7 @@ import styles from './styles';
 function Apostila04() {
     return(
         <View style={styles.container}>
-            <Text>Exemplo 04</Text>
+            <Text style={styles.texto}>Exemplo 04</Text>
         </View>
     );
 }
