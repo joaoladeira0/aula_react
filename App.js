@@ -2,15 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Constants from 'expo-constants';
 
-import Apostila04 from './components/apostila_04/index.js';
-
-let corApp = '#000';
+import Apostila04 from './components/apostila_04_exercicio/index.js';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Apostila04 />
-      <StatusBar style={corApp == '#000' ? "light" : "dark"} />
     </View>
   );
 }
@@ -18,7 +15,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: corApp,
+    backgroundColor: '#c51162',
     padding: 8,
     paddingTop: Constants.statusBarHeight,
   },
