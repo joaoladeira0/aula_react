@@ -5,7 +5,7 @@ import styles from './styles';
 function Apostila04_ativ(){
   const[nome,setNome]= useState('');
   const[snome, setSnome]=useState('');
-  const[mensagem, setMensagem] =useState('aqui aparece o texto digitado!');
+  const[mensagem, setMensagem] =useState('Aqui aparece o texto digitado!');
   
   function apresentaMensagem(){
     setMensagem(nome + ' ' + snome);
@@ -14,7 +14,7 @@ function Apostila04_ativ(){
   }
   return(
     <View style={styles.container}>
-      <Text style={styles.texto}>Exemplo 04</Text>
+      <Text style={styles.titulo}>Exemplo 04</Text>
       <Text style={styles.txtSaida}>
          {mensagem}
          </Text>
