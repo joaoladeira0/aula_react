@@ -31,15 +31,22 @@ const styles = StyleSheet.create({
     }, 
     buttonText: {
       alignSelf: 'center', 
-      padding: 30, 
-      fontSize: 25, 
+      padding: 15, 
+      fontSize: 35, 
       color: '#6DC4A4',
       fontWeight: 'bold', 
     },
     resultados: {
       alignSelf: 'center', 
       color: 'lightgray', 
-      fontSize: 65, 
+      fontSize: 50, 
+      padding: 15, 
+    }, 
+    resultado: {
+      textAlign: 'center',
+      alignSelf: 'center', 
+      color: 'lightgray', 
+      fontSize: 35, 
       padding: 15, 
     }, 
   });
